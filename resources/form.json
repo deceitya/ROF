@@ -1,0 +1,83 @@
+{
+    "modal": {
+        "type": "modal",
+        "title": "はい か いいえ",
+        "content": "選んでください",
+        "button1": "はい",
+        "button2": "いいえ"
+    },
+    "form": {
+        "type": "form",
+        "title": "選択肢みたいな",
+        "content": "好きな果物を選んでください。",
+        "buttons": [
+            {
+                "text": "みかん",
+                "image": {
+                    "type": "url",
+                    "data": "https://4.bp.blogspot.com/-PYqNTVOP9hs/UgSMR6zIbdI/AAAAAAAAXAk/tDJMCfemfwk/s800/fruit_orange.png"
+                }
+            },
+            {
+                "text": "りんご",
+                "image": {
+                    "type": "url",
+                    "data": "https://2.bp.blogspot.com/-oTqVMb3zbQ4/UgSMNNLY2wI/AAAAAAAAW-o/4nxDWnz7YsQ/s800/fruit_apple.png"
+                }
+            },
+            {
+                "text": "lemon"
+            }
+        ]
+    },
+    "custom": {
+        "type": "custom_form",
+        "title": "一番自由度の高いフォーム",
+        "content": [
+            {
+                "type": "label",
+                "text": "文字を表示するだけ"
+            },
+            {
+                "type": "dropdown",
+                "text": "選択肢",
+                "options": [
+                    "(´・ω・｀)",
+                    "(｀･ω･´)",
+                    "(/ω・＼)"
+                ],
+                "default": 0
+            },
+            {
+                "type": "input",
+                "text": "入力",
+                "placeholder": "後ろにうっすら表示される文字",
+                "default": "最初から入力されてる文字"
+            },
+            {
+                "type": "slider",
+                "text": "スライダーで数値入力",
+                "min": 0,
+                "max": 100,
+                "default": 50
+            },
+            {
+                "type": "step_slider",
+                "text": "区切られたスライダー",
+                "steps": [
+                    "1",
+                    "10",
+                    "100",
+                    "千",
+                    "万"
+                ],
+                "default": 0
+            },
+            {
+                "type": "toggle",
+                "text": "on off",
+                "default": true
+            }
+        ]
+    }
+}

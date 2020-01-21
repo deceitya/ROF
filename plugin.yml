@@ -1,0 +1,16 @@
+name: ROF
+main: deceitya\rof\Main
+version: 1.0.0
+api: 3.11.3
+load: POSTWORLD
+author: deceitya
+website: https://github.com/deceitya/ROF
+commands:
+  form:
+    usage: "/form <name>"
+    description: フォームを表示する
+    permission: rof.cmd.form
+permissions:
+  rof.cmd.form:
+    description: Allows the user to run the form command
+    default: true
